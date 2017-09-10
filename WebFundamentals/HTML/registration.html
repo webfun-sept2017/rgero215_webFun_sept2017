@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Registration Form</title>
+         <link rel="stylesheet" href="registration.css">
+    </head>
+    <body>
+        <form class="register" action="index.html" method="post"><br>
+            <h1>My Registration Form</h1>
+            <label for="first_name">First Name</label>
+            <input type="text" id="first_name" name="first_name"><br>
+
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" name="last_name"><br>
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email"><br>
+
+            <label for="password">Password</label>
+            <input type="text" id="password" name="password"><br>
+
+            <label for="pw_confirmation">PW Confirmation</label>
+            <input type="text" id="pw_confirmation" name="pw_confirmation"><br>
+
+            <label for="birthday">Birthday</label>
+            <input type="date" id="birthday" name="birthday">
+            <img src="images/calendar.png" alt="Calendar" style="width:30px;height:30px;"><br>
+
+            <div class="radio">
+                <input type="radio" id="male" name="male">
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other" name="other">
+                <label for="other">Other</label>
+            </div>
+
+
+            <p>A short description about yourself:</p>
+            <textarea name="description" rows="8" cols="40"></textarea><br>
+
+            <label for="favorite_language">Favorite Language</label>
+            <select class="select" name="favorite_language">
+                <option value="javascript">Javascript</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="python">Python</option>
+                <option value="ruby">Ruby</option>
+                <option value="swift">Swift</option>
+                <option value="php">PHP</option>
+                <option value="c#">C#</option>
+            </select><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
