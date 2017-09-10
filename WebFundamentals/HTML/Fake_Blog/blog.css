@@ -1,0 +1,56 @@
+h1 {
+    margin-left: 130px;
+}
+h2 {
+    margin-left: 40px;
+}
+
+p {
+    text-align: left;
+}
+
+.paragrahps {
+    display: inline-block;
+    width: 500px;
+    height: 200px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 40px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    border: 2px solid black;
+}
+
+th, td {
+    padding: 35px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #A9A9A9;
+    color: black;
+}
+.table {
+    margin-top: 20px;
+}
+
+ul {
+    margin-left: 70px;
+}
+a {
+    margin-left: 80px;
+}
+div.email, div.referral, .submit {
+    margin-left: 40px;
+}
