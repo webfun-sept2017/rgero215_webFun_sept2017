@@ -1,0 +1,95 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+.wrapper {
+    padding: 15px;
+    width: 970px;
+    height: 690px;
+    margin: 0 auto;
+    background: rgb(25, 45, 83);
+}
+
+.header {
+    background: rgb(200, 41, 47);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.navigation {
+    background: rgb(37, 114, 129);
+    display: inline-block;
+    padding: 15px 0px 25px 15px;
+    width: 170px;
+    height: 170px;
+    border-radius: 20px;
+
+}
+
+.content {
+    background: rgb(16, 23, 31);
+    width: 740px;
+    height: 500px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    display: inline-block;
+    float: right;
+    border-radius: 20px;
+}
+
+h1, h2, p {
+    color: rgb(183, 209, 233);
+    margin-left: 10px;
+    padding: 10px, 10px, 0px, 10px;
+
+}
+
+a {
+    color: rgb(87, 216, 226);
+}
+
+.content li {
+    color: rgb(183, 209, 233);
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+p, a, li {
+    font-size: 14px;
+}
+
+.content h2 {
+    padding-left: 5px;
+}
+
+.content p {
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.navigation li {
+    color: rgb(183, 209, 233);
+}
+
+.navigation ul {
+    margin-top: 0px;
+    padding-left: 15px;
+}
+
+.footer {
+    background: rgb(83, 91, 104);
+    margin-top: 20px;
+    display: inline-block;
+    width: 930px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+strong {
+    color: rgb(89, 99, 225);
+}
