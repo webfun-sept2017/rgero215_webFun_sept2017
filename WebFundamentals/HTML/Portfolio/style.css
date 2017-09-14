@@ -1,0 +1,161 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+.wrapper {
+    width: 1010px;
+    height: 1100px;
+    background-color: rgb(100, 79, 89);
+    margin: 0 auto;
+}
+.header {
+    background-color: rgb(249, 249, 249);
+}
+.header .name h1 {
+    font-family: "Comic Sans MS";
+}
+.name, .subTitle {
+    display: inline-block;
+    padding: 10px;
+}
+.name {
+    margin-left: 15px;
+}
+.subTitle {
+    float: right;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.imageBox {
+    width: 480px;
+    height: 300px;
+    border: solid rgb(188, 187, 188) 2px;
+    margin: 20px 15px 20px 10px;
+    display: inline-block;
+}
+
+.aboutBox {
+    width: 472px;
+    height: 302px;
+    margin: 20px 10px 20px 10px;
+    display: inline-block;
+    /*border: solid rgb(100, 79, 89) 2px;*/
+    vertical-align: top;
+    background: rgb(246, 243, 246); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, rgb(246, 243, 246) , rgb(222, 209, 222)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgb(246, 243, 246), rgb(222, 209, 222)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgb(246, 243, 246), rgb(222, 209, 222)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgb(246, 243, 246) , rgb(222, 209, 222)); /* Standard syntax */
+}
+.aboutHeader {
+    background: rgb(123, 121, 134); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(123, 121, 134), rgb(188, 187, 188)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(123, 121, 134), rgb(188, 187, 188)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(123, 121, 134), rgb(188, 187, 188)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(123, 121, 134), rgb(188, 187, 188)); /* Standard syntax */
+    padding: 10px;
+}
+.aboutHeader h3, .projectOne h3, .projectTwo h3, .projectThree h3 {
+    color: rgb(255, 255, 255);
+}
+.aboutContent {
+    padding: 15px;
+}
+
+.aboutContent a {
+    text-decoration-color: black;
+    color: black;
+}
+.projectOne, .projectTwo, .projectThree {
+    width: 320px;
+    height: : 600px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.projectTitle {
+    background: rgb(123, 121, 134); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(123, 121, 134), rgb(188, 187, 188)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(123, 121, 134), rgb(188, 187, 188)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(123, 121, 134), rgb(188, 187, 188)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(123, 121, 134), rgb(188, 187, 188)); /* Standard syntax */
+    padding: 10px;
+}
+.projectImage {
+    width: 320px;
+    height: 150px;
+}
+.projectContent {
+    width: 320px;
+    height: 200px;
+    background: rgb(246, 243, 246); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, rgb(246, 243, 246) , rgb(222, 209, 222)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgb(246, 243, 246), rgb(222, 209, 222)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgb(246, 243, 246), rgb(222, 209, 222)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgb(246, 243, 246) , rgb(222, 209, 222)); /* Standard syntax */
+}
+.projectContent p {
+    padding: 10px;
+}
+.projectTech {
+    background: rgb(123, 121, 134); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(123, 121, 134), rgb(188, 187, 188)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(123, 121, 134), rgb(188, 187, 188)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(123, 121, 134), rgb(188, 187, 188)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(123, 121, 134), rgb(188, 187, 188)); /* Standard syntax */
+    padding: 10px;
+}
+.techContent {
+    width: 320px;
+    height: 220px;
+    background: rgb(246, 243, 246); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, rgb(246, 243, 246) , rgb(222, 209, 222)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgb(246, 243, 246), rgb(222, 209, 222)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgb(246, 243, 246), rgb(222, 209, 222)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgb(246, 243, 246) , rgb(222, 209, 222)); /* Standard syntax */
+}
+.techContent img{
+    padding: 10px;
+}
+.rowThree button {
+    color: white;
+    border-radius: 15px;
+    border: solid black 1px;
+    background: rgb(56, 114, 86);
+    /*margin-left: 112px;*/
+    box-shadow: 5px 5px 2px grey;
+    font-size: 18px;
+}
+.projectOne .rowThree button {
+    margin-left: 112px;
+}
+.projectTwo .rowThree button {
+    margin-left: 88px;
+}
+.projectThree .rowThree button {
+    margin-left: 94px;
+}
+.footer {
+    background-color: rgb(249, 249, 249);
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+.footer p {
+    text-align: center;
+}
+.socialMedia {
+    margin-left: 320px;
+
+}
+.footer .socialMedia a {
+    text-decoration-color: black;
+    color: black;
+    text-align: center;
+    font-style: italic;
+
+}
+.socialMedia img {
+    vertical-align: middle;
+}
