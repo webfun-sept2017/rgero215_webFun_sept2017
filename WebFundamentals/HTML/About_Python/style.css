@@ -1,0 +1,230 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+.wrapper {
+    width: 970px;
+    height: 830px;
+    background-color: rgb(32, 71, 107);
+    margin: 0 auto;
+}
+.logo {
+    padding: 10px 30px 20px 30px;
+}
+.searchWrapper, .logo {
+    display: inline-block;
+}
+.searchWrapper {
+    vertical-align: top;
+}
+.textSizeBox {
+    margin-left: 315px;
+    margin-top: 10px;
+}
+.textSizeBox p {
+    display: inline-block;
+    color: white;
+}
+.textSizeBox .division {
+    color: black;
+}
+.textSizeBox a {
+    color: rgb(255, 217, 76);
+}
+.searchBox {
+    background: rgb(60, 60, 60);
+    padding: 10px 30px;
+    display: inline-block;
+    margin-left: 225px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px black;
+
+}
+.searchBox input {
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    color: grey;
+    border: solid grey 2px;
+}
+.searchBox button {
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 5px;
+    background-color: rgb(32, 71, 107);
+    color: white;
+}
+.navBar {
+    background: rgb(56, 112, 163);
+    box-shadow: 3px 3px 1px black;
+    width: 800px;
+    height: 20px;
+    margin-left: 100px;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+
+}
+.navBar a {
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+.listBox {
+    margin-left: 140px;
+    margin-top: 42px;
+    display: inline-block;
+}
+.listBox ul {
+    list-style: none;
+}
+.listBox ul li:before {
+    content: "\00BB \0020";
+}
+.listBox ul li {
+    text-align: center;
+    color: rgb(255, 217, 76);
+    margin-top: 6px;
+}
+.listBox ul li a {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+.aboutBox {
+    width: 553px;
+    margin-left: 30px;
+    margin-top: 30px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+.aboutBox p {
+    color: white;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+}
+.quoteBox {
+    width: 350px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.quoteBox p {
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(255, 217, 76);
+    margin-top: 5px;
+}
+.quoteBox .author {
+    font-style: normal;
+    color: white;
+    font-size: 16px;
+}
+.startedWrapper {
+    background: white;
+    margin-top: 20px;
+}
+.lineOne {
+    width: 420px;
+    height: 5px;
+    background: rgb(56, 112, 163);
+    display: inline-block;
+    margin-left: 70px;
+    /*margin-left: 30px;*/
+}
+.lineTwo {
+    width: 420px;
+    height: 5px;
+    background: rgb(56, 112, 163);
+    display: inline-block;
+    margin-left: 20px;
+    /*margin-left: 30px;*/
+}
+.gettingStartedBox, .applicationsBox {
+    display: inline-block;
+    vertical-align: top;
+    width: 311px;
+    height: 200px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    margin-right: 0px;
+    text-align: center;
+    padding: 10px;
+}
+.gettingStartedBox {
+    margin-left: 70px;
+}
+.applicationsBox {
+    margin-left: 100px;
+}
+/*.gettingStartedBox p, .applicationsBox p, .gettingStartedBox h3, .applicationsBox h3 {
+
+}*/
+.gettingStartedBox ul, .applicationsBox ul {
+    text-align: left;
+}
+
+.gettingStartedBox ul li, .applicationsBox ul li {
+    list-style: square;
+    list-style-position: outside;
+
+
+}
+.gettingStartedBox ul li a, .applicationsBox ul li a, .applicationsBox p a {
+    color: rgb(56, 112, 163);
+    text-decoration: none;
+}
+.programmers {
+    margin-left: 60px;
+}
+.noProgrammers {
+    margin-left: 45px;
+}
+.sample {
+    margin-left: 40px;
+}
+
+.webAndInternet {
+    margin-left: 65px;
+}
+.database {
+    margin-left: 110px;
+}
+.desktopGUIs {
+    margin-left: 120px;
+}
+.network {
+    margin-left: 95px;
+}
+.software {
+    margin-left: 60px;
+}
+.footer {
+    border: solid black 1px;
+    background: rgb(32, 71, 107); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(32, 71, 107), rgb(56, 112, 163)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(32, 71, 107), rgb(56, 112, 163)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(32, 71, 107), rgb(56, 112, 163)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(32, 71, 107), rgb(56, 112, 163)); /* Standard syntax */
+}
+.footerNav {
+    margin-left: 200px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.footerNav a {
+    text-decoration: none;
+    text-align: center;
+    margin-left: 30px;
+    color: rgb(99, 149, 196);
+}
+.footer p {
+    color: rgb(99, 149, 196);
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
