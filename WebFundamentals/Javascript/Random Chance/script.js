@@ -2,19 +2,19 @@ function play() {
     var quarter = prompt("How Much You Want To Bet")
     var result;
     var answer;
-    if (isNaN(quarter) || !quarter) {
+    if (isNaN(parseInt(quarter)) || !quarter) {
         alert("Invalid Number");
         play();
     } else {
         var randomChance = Math.floor(Math.random() * 100);
         var randomCoins = Math.floor(Math.random() * 50) + 50;
         var pickNumber = prompt("Pick A Number Between 1 to 100");
-        var winnings = quarter + randomCoins;
+        var winnings = parseInt(quarter) + randomCoins;
         while (quarter > 0) {
             console.log("Your pick: " + pickNumber);
             console.log("Winning Number: " + randomChance);
             console.log("Possible Winnings: " + randomCoins);
-            if (pickNumber === randomChance) {
+            if (parseInt(pickNumber) === randomChance) {
                 result = winnings
                 alert("You Pick the Winning Number.  Your Total Winnings:", result);
                 answer = prompt("Would You Like To Play Again? yes/no")
@@ -25,8 +25,8 @@ function play() {
                 } else if (!answer){
                     alert("See You Next Time")
                 }
-            } else if (pickNumber !== randomChance) {
-                if (isNaN(pickNumber)) {
+            } else if (parseInt(pickNumber) !== randomChance) {
+                if (isNaN(parseInt(pickNumber))) {
                     alert("Invalid number");
                     pickNumber = prompt("Pick Another Number Between 1 to 100");
                     randomChance = Math.floor(Math.random() * 100);
