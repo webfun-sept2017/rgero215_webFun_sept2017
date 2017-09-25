@@ -1,0 +1,47 @@
+/*reset css*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper {
+    width: 970px;
+    /*height: 1000px;*/
+    border: solid black 1px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.content {
+    border: solid grey 1px;
+    padding: 20px;
+}
+.text {
+    border: solid grey 1px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px;
+    margin-left: 100px;
+    width: 500px;
+
+}
+button {
+    display: inline-block;
+    border: solid grey 1px;
+    vertical-align: middle;
+    width: 180px;
+    padding: 10px;
+}
+h1 {
+    border: solid grey 1px;
+}
+.show {
+    display: none;
+}
+p {
+    border: solid grey 1px;
+    text-align: center;
+    margin-top: 20px;
+}
+.addClass {
+    background: yellow;
+}
