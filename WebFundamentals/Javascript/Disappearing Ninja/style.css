@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper {
+    width: 970px;
+    margin: 0 auto;
+    border: solid black 1px;
+    padding: 20px;
+    margin-top: 50px;
+    background: black;
+}
+.images {
+    display: inline-block;
+    width: 237px;
+    height: 175px;
+    border: solid black 1px;
+    background: white;
+}
+img {
+    width: 237px;
+    height: 175px;
+}
+button {
+    width: 968px;
+    height: 30px;
+    background: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
