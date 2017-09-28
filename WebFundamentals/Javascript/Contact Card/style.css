@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper {
+    width: 970px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+.addUser {
+    display: inline-block;
+    width: 470px;
+    height: 600px;
+    /*margin-right: 5px;*/
+    vertical-align: top;
+}
+.contactCard {
+    display: inline-block;
+    width: 450px;
+    padding: 20px;
+}
+label {
+    font-size: 20px;
+}
+input {
+    width: 365px;
+    height: 30px;
+    margin-top: 20px;
+}
+.lastName {
+    margin-bottom: 80px;
+    margin-left: 2px;
+}
+.description {
+    width: 468px;
+    height: 300px;
+    margin-top: 20px;
+
+}
+.submit {
+    width: 200px;
+    margin-top: 25px;
+    box-shadow: 10px 5px 5px black;
+}
+.card {
+    width: 430px;
+    height: 180px;
+    margin-bottom: 20px;
+    border: solid black 1px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 10px 5px 5px black;
+}
+.card a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+h1 {
+    margin-top: 60px;
+}
