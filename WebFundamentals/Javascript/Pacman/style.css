@@ -3,8 +3,8 @@
     padding: 0px;
 }
 .wrapper {
-    width: 970px;
-    height: 500px;
+    width: 1080px;
+    height: 400px;
     margin: 0 auto;
     margin-top: 50px;
     background: black;
@@ -30,6 +30,36 @@ div.cherry {
     background-position: center;
     background-size: cover;
 }
+div.redGhost {
+    background: url("images/red_ghost.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div.blueGhost {
+    background: url("images/blue_ghost.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div.orangeGhost {
+    background: url("images/orange_ghost.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div.greenGhost {
+    background: url("images/green_ghost.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div.pinkGhost {
+    background: url("images/pink_ghost.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 div#pacman {
     background: url("images/pacman.gif");
     background-repeat: no-repeat;
@@ -49,7 +79,7 @@ div#score {
     text-align: center;
     position: absolute;
     top: 0px;
-    left: 210px;
+    left: 990px;
     margin-top: 10px;
     padding-top: 3px;
 }

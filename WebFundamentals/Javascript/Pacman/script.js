@@ -1,16 +1,26 @@
 $(document).ready(function () {
     // have JS display the world of bricks/ coin/ etc.
     var world = [
-        [2,2,2,2,2,2,2,2,2,2],
-        [2,0,1,1,1,1,2,3,1,2],
-        [2,2,2,1,1,1,2,2,1,2],
-        [2,1,1,1,1,1,2,1,1,2],
-        [2,1,1,1,1,1,2,1,1,2],
-        [2,1,2,1,1,1,1,1,1,2],
-        [2,1,2,1,1,1,1,1,1,2],
-        [2,1,2,1,2,2,2,2,2,2],
-        [2,3,2,1,1,1,1,1,3,2],
-        [2,2,2,2,2,2,2,2,2,2]
+        [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2],
+        [2,0,1,1,1,3,2,1,1,1,1,1,1,1,1,2,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,2,3,1,1,1,1,2],
+        [2,1,1,1,1,1,2,1,1,1,7,1,1,1,1,2,1,2,1,1,2,1,1,1,2,1,1,2,1,2,1,1,1,2,1,1,1,1,1,1,1,1,2,2,1,1,1,1,2],
+        [2,1,2,2,2,2,2,1,4,1,1,1,1,1,6,2,1,2,1,1,2,1,1,3,2,1,8,2,1,2,1,1,1,2,1,1,8,1,1,1,1,1,2,1,2,1,1,2,2],
+        [2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,2,1,1,2,2,2,2,2,1,1,2,1,2,1,1,1,2,1,1,1,1,1,1,1,1,2,1,1,1,2,1,2],
+        [2,1,1,1,1,1,1,1,2,2,2,2,2,1,1,2,1,2,1,1,1,1,1,1,2,1,1,2,1,2,1,6,1,2,1,1,1,1,1,1,1,1,2,1,5,2,1,1,2],
+        [2,1,1,8,1,1,1,1,1,1,1,1,1,1,1,2,1,2,1,1,1,1,1,1,2,1,1,2,1,2,1,1,1,2,1,1,1,1,4,1,1,1,2,1,2,3,1,1,2],
+        [2,1,1,2,2,2,2,1,1,1,1,1,1,1,7,2,1,2,1,1,1,1,1,1,2,1,1,2,1,2,1,1,1,2,1,1,1,1,1,1,1,1,3,1,1,2,1,1,2],
+        [2,1,1,1,1,1,2,1,1,1,1,1,1,1,1,2,1,2,1,1,1,1,1,1,2,1,1,2,1,2,4,8,1,2,1,1,1,1,1,1,1,1,2,1,1,1,2,1,2],
+        [2,1,1,1,1,1,2,1,1,1,6,1,1,1,1,2,1,2,5,1,1,1,1,1,2,1,1,2,1,2,1,1,1,2,1,1,1,1,1,1,2,1,2,1,1,1,2,1,2],
+        [2,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,2,1,1,2,3,2,1,1,1,2,1,6,1,1,1,2,1,1,2,1,1,1,2,1,2],
+        [2,1,1,1,5,1,2,1,1,1,1,1,1,1,1,2,1,2,1,1,1,1,1,1,2,1,1,2,2,2,1,1,1,2,1,1,1,5,2,1,1,1,2,1,1,1,2,1,2],
+        [2,1,1,1,1,1,2,1,1,1,1,1,1,8,3,2,1,2,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,2,1,1,1,2,1,1,1,1,2,1,1,1,2,1,2],
+        [2,1,1,1,1,1,2,1,1,1,1,1,1,1,1,2,1,2,2,2,2,2,1,1,2,1,1,1,1,1,1,1,1,2,1,1,2,1,1,1,1,1,2,1,1,1,2,1,2],
+        [2,1,6,1,1,1,2,1,1,1,1,4,1,1,1,2,1,1,1,1,1,1,1,1,2,1,2,2,2,2,2,2,2,2,1,2,1,1,1,1,8,1,2,1,1,1,2,1,2],
+        [2,1,1,1,1,1,2,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,2,2,1,1,1,1,1,1,1,2,1,1,1,2,1,2],
+        [2,1,1,1,1,1,2,1,5,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,5,1,1,2,1,2],
+        [2,7,1,1,1,1,2,2,2,2,2,2,2,2,1,2,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,5,1,2,1,1,1,1,1,1,7,1,2,1,1,1,1,1,2],
+        [2,1,1,1,1,4,2,3,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,2,1,1,1,1,1,2],
+        [2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2]
 
     ];
     var pacman = {
@@ -48,6 +58,16 @@ $(document).ready(function () {
                     output += "<div class='empty'></div>";
                 } else if (world[i][j] == 3) {
                     output += "<div class='cherry'></div>";
+                } else if (world[i][j] == 4) {
+                    output += "<div class='redGhost'></div>";
+                } else if (world[i][j] == 5) {
+                    output += "<div class='blueGhost'></div>";
+                } else if (world[i][j] == 6) {
+                    output += "<div class='orangeGhost'></div>";
+                } else if (world[i][j] == 7) {
+                    output += "<div class='greenGhost'></div>";
+                } else if (world[i][j] == 8) {
+                    output += "<div class='pinkGhost'></div>";
                 }
 
             }
@@ -73,11 +93,7 @@ $(document).ready(function () {
             $("#pacman").toggleClass('left', false);
             $("#pacman").toggleClass('up', false);
             $("#pacman").toggleClass('down', false);
-            // if (world[pacman.y][pacman.x + 1] === 2) {
-            //     $("#pacman").toggleClass('rotated_180', true);
-            // } else if (world[pacman.y][pacman.x + 1] === 1 || world[pacman.y][pacman.x + 1] === 0 ||world[pacman.y][pacman.x + 1] === 3) {
-            //     $("#pacman").toggleClass('rotated_180', false);
-            // }
+
         } else if (e.keyCode == 40 && world[pacman.y + 1][pacman.x] !== 2) {
             pacman.y ++
             $("#pacman").toggleClass('down', true);
@@ -85,34 +101,21 @@ $(document).ready(function () {
             $("#pacman").toggleClass('left', false);
             $("#pacman").toggleClass('up', false);
 
-            // if (world[pacman.y + 1 ][pacman.x] === 2) {
-            //     $("#pacman").toggleClass('rotated', false);
-            // } else if (world[pacman.y + 1][pacman.x] === 1 || world[pacman.y + 1][pacman.x] === 0 ||world[pacman.y + 1][pacman.x] === 3) {
-            //     $("#pacman").toggleClass('rotated', true);
-            // }
+
         } else if (e.keyCode == 37 && world[pacman.y][pacman.x - 1] !== 2) {
             pacman.x --
             $("#pacman").toggleClass('left', true);
             $("#pacman").toggleClass('right', false);
             $("#pacman").toggleClass('up', false);
             $("#pacman").toggleClass('down', false);
-            // if (world[pacman.y][pacman.x - 1] === 2) {
-            //     $("#pacman").toggleClass('rotated_180', true);
-            // } else if (world[pacman.y][pacman.x - 1] === 1 || world[pacman.y][pacman.x - 1] === 3) {
-            //     $("#pacman").toggleClass('rotated_180', false);
-            // }
-            // $("#pacman").toggleClass('rotated_180', true);
+
         } else if (e.keyCode == 38 && world[pacman.y - 1][pacman.x] !== 2 ) {
             pacman.y --
             $("#pacman").toggleClass('up', true);
             $("#pacman").toggleClass('right', false);
             $("#pacman").toggleClass('left', false);
             $("#pacman").toggleClass('down', false);
-            // if (world[pacman.y - 1 ][pacman.x] === 2) {
-            //     $("#pacman").toggleClass('rotated', false);
-            // } else if (world[pacman.y - 1][pacman.x] === 1 || world[pacman.y - 1][pacman.x] === 3) {
-            //     $("#pacman").toggleClass('rotated', true);
-            // }
+
         }
 
         if (world[pacman.y][pacman.x] == 1) {
@@ -125,6 +128,13 @@ $(document).ready(function () {
             score += 50;
             displayWorld();
             displayScore();
+        } else if (world[pacman.y][pacman.x] == 5) {
+            score -= 50;
+            displayWorld();
+            displayScore();
+        } else if (world[pacman.y][pacman.x] == 4 || world[pacman.y][pacman.x] == 6 || world[pacman.y][pacman.x] == 7 || world[pacman.y][pacman.x] == 8) {
+            alert("You lost");
+            location.reload();
         }
         displayPacman();
 
