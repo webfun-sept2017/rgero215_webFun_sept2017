@@ -21,7 +21,7 @@ $(document).ready(function () {
 
         $(cardLocation).append("<div class='card'>" + "<h1>" + firstName + " "
             + lastName + "</h1>" + "<h2>" + description + "</h2>" + "<a href='#'>Click For Description!</a>" + "</div>");
-            $(cardLocation).children("h2").hide();
+            
             $(".card").css("background-color", random_color);
             $("a").on("click", function(event) {
                 event.stopPropagation();

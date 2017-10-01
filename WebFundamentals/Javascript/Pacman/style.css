@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper {
+    width: 970px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: black;
+    position: relative;
+    font-size: 0;
+}
+div.row div {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+div.bricks {
+    background: blue;
+}
+div.coin {
+    background: url("images/coin.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+div.cherry {
+    background: url("images/cherry.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div#pacman {
+    background: url("images/pacman.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+
+}
+div#score {
+    border: solid white 1px;
+    width: 80px;
+    height: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 210px;
+    margin-top: 10px;
+    padding-top: 3px;
+}
+.right {
+  transform: rotate(0deg);
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -moz-transform: rotate(0deg); /* Firefox */
+  -webkit-transform: rotate(0deg); /* Safari and Chrome */
+  -o-transform: rotate(0deg); /* Opera */
+}
+.down {
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -moz-transform: rotate(90deg); /* Firefox */
+  -webkit-transform: rotate(90deg); /* Safari and Chrome */
+  -o-transform: rotate(90deg); /* Opera */
+}
+.left {
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -moz-transform: rotate(180deg); /* Firefox */
+  -webkit-transform: rotate(180deg); /* Safari and Chrome */
+  -o-transform: rotate(180deg); /* Opera */
+}
+.up {
+  transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg); /* IE 9 */
+  -moz-transform: rotate(-90deg); /* Firefox */
+  -webkit-transform: rotate(-90deg); /* Safari and Chrome */
+  -o-transform: rotate(-90deg); /* Opera */
+}
