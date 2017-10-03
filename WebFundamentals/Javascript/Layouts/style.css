@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header{
+    background: rgb(216, 216, 216);
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+li {
+    display: inline-block;
+    border: solid black 1px;
+    background: rgb(216, 216, 216);
+    padding: 5px;
+    margin-bottom: 50px;
+}
+h3 {
+    margin-bottom: 20px;
+}
+.content, .last {
+    float: left;
+    border: solid black 1px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.mainContent {
+    clear: both;
+}
+@media only screen and (min-width:481px){
+    .content{
+        width: 30%;
+    }
+    .last {
+        width: 90.5%;
+    }
+    .header {
+        width: 89%
+    }
+    .nav {
+        display: none;
+    }
+    .last {
+        margin-top: 20px;
+    }
+
+}
+@media only screen and (min-width:1024px){
+    .content, .last{
+        width: 24%;
+    }
+    .header {
+        width: 95%;
+    }
+    .nav {
+        display: inline-block;
+    }
+    .last {
+        margin-top: 0px;
+    }
+
+
+}
