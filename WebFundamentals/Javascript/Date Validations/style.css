@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper {
+    width: 970px;
+    border: solid black 1px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+}
+h1 {
+    margin-bottom: 30px;
+}
+input {
+    margin-bottom: 50px;
+    width: 200px;
+    height: 30px;
+}
+.submit {
+    background: blue;
+    color: white;
+    position: relative;
+
+}
+label {
+    color: red;
+    position: absolute;
+    left: 1100px;
+    top: 435px;
+    display: none;
+}
